@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Jasa Digital Marketing</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+:root{
+    --hijau:#2e7d32;
+    --hijau-muda:#66bb6a;
+    --hijau-gelap:#1b5e20;
+    --abu:#f5f7f6;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    color:#333;
+    background:white;
+    line-height:1.7;
+}
+
+/* HEADER */
+header{
+    background:linear-gradient(135deg,var(--hijau-gelap),var(--hijau));
+    color:white;
+    padding:110px 20px 90px;
+    text-align:center;
+}
+
+header h1{
+    font-size:48px;
+    font-weight:700;
+    margin-bottom:20px;
+}
+
+header p{
+    font-size:18px;
+    max-width:820px;
+    margin:auto;
+    opacity:.95;
+}
+
+/* NAV */
+nav{
+    background:white;
+    position:sticky;
+    top:0;
+    z-index:100;
+    box-shadow:0 4px 15px rgba(0,0,0,.08);
+}
+
+nav ul{
+    display:flex;
+    justify-content:center;
+    list-style:none;
+    padding:15px 10px;
+}
+
+nav ul li{
+    margin:0 20px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:var(--hijau);
+    font-weight:600;
+    transition:.3s;
+}
+
+nav ul li a:hover{
+    color:var(--hijau-gelap);
+}
+
+/* SECTION */
+section{
+    padding:90px 20px;
+}
+
+.container{
+    max-width:1100px;
+    margin:auto;
+}
+
+h2{
+    text-align:center;
+    font-size:38px;
+    color:var(--hijau);
+    margin-bottom:25px;
+}
+
+.section-desc{
+    text-align:center;
+    max-width:850px;
+    margin:0 auto 50px;
+    font-size:18px;
+    color:#555;
+}
+
+/* ABOUT */
+.about-box{
+    background:var(--abu);
+    padding:50px;
+    border-radius:20px;
+    text-align:center;
+}
+
+.about-box p{
+    font-size:18px;
+}
+
+/* SERVICES */
+.services{
+    background:var(--abu);
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:30px;
+}
+
+.card{
+    background:white;
+    padding:35px 30px;
+    border-radius:18px;
+    box-shadow:0 15px 30px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.card h3{
+    color:var(--hijau);
+    margin-bottom:15px;
+    font-size:22px;
+}
+
+.card p{
+    color:#555;
+}
+
+/* PORTFOLIO */
+.portfolio .card{
+    border-top:5px solid var(--hijau-muda);
+}
+
+/* TESTIMONI */
+.testimoni{
+    background:var(--abu);
+}
+
+.testi-card{
+    background:white;
+    padding:35px;
+    border-radius:18px;
+    box-shadow:0 15px 30px rgba(0,0,0,.08);
+}
+
+.testi-card p{
+    font-style:italic;
+    margin-bottom:15px;
+}
+
+.testi-card strong{
+    color:var(--hijau);
+}
+
+/* KONTAK */
+.contact{
+    background:linear-gradient(135deg,var(--hijau),var(--hijau-muda));
+    color:white;
+    text-align:center;
+}
+
+.contact p{
+    font-size:18px;
+    margin:12px 0;
+}
+
+/* FOOTER */
+footer{
+    background:#0e2614;
+    color:white;
+    text-align:center;
+    padding:25px;
+    font-size:14px;
+}
+
+/* RESPONSIVE */
+@media(max-width:600px){
+    header h1{font-size:34px;}
+    h2{font-size:30px;}
+    .about-box{padding:35px 25px;}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Jasa Digital Marketing</h1>
+    <p>
+        Kami membantu bisnis berkembang di dunia digital melalui strategi pemasaran online
+        yang terarah, efektif, dan sesuai dengan kebutuhan usaha Anda.
+    </p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#tentang">Tentang Kami</a></li>
+        <li><a href="#layanan">Layanan</a></li>
+        <li><a href="#portofolio">Portofolio</a></li>
+        <li><a href="#ulasan">Ulasan</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+    </ul>
+</nav>
+
+<section id="tentang">
+    <div class="container">
+        <h2>Tentang Kami</h2>
+        <p class="section-desc">
+            Solusi pemasaran digital untuk membantu usaha Anda lebih dikenal dan berkembang
+        </p>
+        <div class="about-box">
+            <p>
+                Kami adalah jasa digital marketing yang fokus membantu UMKM, toko online,
+                dan usaha jasa dalam memasarkan produk secara online.
+                Dengan strategi yang tepat, kami membantu meningkatkan jangkauan,
+                kepercayaan pelanggan, dan penjualan secara berkelanjutan.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section id="layanan" class="services">
+    <div class="container">
+        <h2>Layanan Kami</h2>
+        <p class="section-desc">
+            Layanan lengkap untuk mendukung pemasaran digital bisnis Anda
+        </p>
+        <div class="grid">
+            <div class="card">
+                <h3>Manajemen Media Sosial</h3>
+                <p>Mengelola media sosial agar aktif, menarik, dan membangun kepercayaan pelanggan.</p>
+            </div>
+            <div class="card">
+                <h3>Iklan Digital</h3>
+                <p>Membantu menjalankan iklan online agar tepat sasaran dan efektif.</p>
+            </div>
+            <div class="card">
+                <h3>Pembuatan Website</h3>
+                <p>Website profesional sebagai sarana informasi dan promosi bisnis.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="portofolio" class="portfolio">
+    <div class="container">
+        <h2>Portofolio</h2>
+        <p class="section-desc">
+            Beberapa hasil kerja kami dalam membantu berbagai jenis usaha
+        </p>
+        <div class="grid">
+            <div class="card">
+                <h3>Bisnis Kuliner</h3>
+                <p>Peningkatan pesanan melalui promosi media sosial dan iklan online.</p>
+            </div>
+            <div class="card">
+                <h3>Toko Online</h3>
+                <p>Penjualan meningkat dengan strategi digital marketing terarah.</p>
+            </div>
+            <div class="card">
+                <h3>Usaha Jasa</h3>
+                <p>Brand lebih dikenal dan menjangkau pelanggan baru.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="ulasan" class="testimoni">
+    <div class="container">
+        <h2>Ulasan Klien</h2>
+        <p class="section-desc">
+            Kepuasan klien adalah prioritas utama kami
+        </p>
+        <div class="grid">
+            <div class="testi-card">
+                <p>“Pemasaran online kami jadi lebih terarah dan hasilnya terasa.”</p>
+                <strong>— Pemilik Usaha Kuliner</strong>
+            </div>
+            <div class="testi-card">
+                <p>“Iklan lebih efektif dan penjualan meningkat.”</p>
+                <strong>— Toko Online</strong>
+            </div>
+            <div class="testi-card">
+                <p>“Sangat membantu untuk usaha yang baru mulai online.”</p>
+                <strong>— Usaha Jasa</strong>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="kontak" class="contact">
+    <div class="container">
+        <h2>Kontak Kami</h2>
+        <p>Email: jasadigitalmarketing@email.com</p>
+        <p>WhatsApp: 08xxxxxxxxxx</p>
+        <p>Alamat: Jl. Mawar 09</p>
+    </div>
+</section>
+
+<footer>
+    © 2026 Jasa Digital Marketing. Semua Hak Dilindungi.
+</footer>
+
+</body>
+</html>
